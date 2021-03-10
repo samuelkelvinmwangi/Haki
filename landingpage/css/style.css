@@ -115,12 +115,12 @@ header .nav-bar ul li a.active::before
     background-position: center;
 }
 .homeintro{
-    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(../images/home.jpg);
+    background-image: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url(../images/home.jpg);
 }
 .homeintro h1{
     text-align: center;
     position: relative;
-    padding-top: 30%;
+    padding-top: 20%;
 }
 
 /* landing page end */
