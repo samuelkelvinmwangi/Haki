@@ -115,7 +115,7 @@ header .nav-bar ul li a.active::before
     background-position: center;
 }
 .homeintro{
-    background-image: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url(../images/home.jpg);
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../images/home.jpg);
 }
 .homeintro h1{
     text-align: center;
@@ -207,6 +207,7 @@ section{
     border-radius: 6px;
     border: 2px solid #89CFF0;
     transition: all 0.3s ease;
+    text-decoration: none;
 }
 .about .about-content .right a:hover{
     color: rgb(0, 183, 255);
@@ -296,6 +297,8 @@ section{
     font-size: 18px;
     color: black;
 }
-
+.card-block{
+    margin: 5px;
+}
 
 /* team section ends here */
